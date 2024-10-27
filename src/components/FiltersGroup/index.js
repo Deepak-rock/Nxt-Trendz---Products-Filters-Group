@@ -53,7 +53,7 @@ const FiltersGroup = props => {
           <IoSearchSharp className="search-icon" />
         </button>
       </div>
-      <p className="category">Category</p>
+      <h3 className="category">Category</h3>
       <ul className="category-options-list">
         {categoryOptions.map(category => (
           <li className="category-item" key={category.categoryId}>
@@ -66,7 +66,7 @@ const FiltersGroup = props => {
               type="button"
               onClick={() => changeCategory(category.categoryId)}
             >
-              {category.name}
+              <p className="name">{category.name}</p>
             </button>
           </li>
         ))}
@@ -84,7 +84,11 @@ const FiltersGroup = props => {
               type="button"
               onClick={() => changeRating(rating.ratingId)}
             >
-              <img src={rating.imageUrl} alt="stars" className="stars-icon" />
+              <img
+                src={rating.imageUrl}
+                alt={`rating ${rating.ratingId}`}
+                className="stars-icon"
+              />
               <p className="up"> & up</p>
             </button>
           </li>
