@@ -42,6 +42,9 @@
   list-style-type: none;
   padding: 0;
 }
+.name{
+  margin: 0;
+}
 .category-item,
 .rating-item {
   padding: 5px 0;
