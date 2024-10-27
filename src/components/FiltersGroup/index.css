@@ -4,46 +4,50 @@
 
 /* Write your CSS here */
 
-.search-input-container{
+.search-input-container {
   display: flex;
   align-items: center;
   background-color: #f1f5f9;
   padding: 10px;
   border-radius: 8px;
 }
-.search-input{
+.search-input {
   background-color: transparent;
   border: none;
   outline: none;
   width: 100%;
   cursor: pointer;
 }
-.search-button{
+.search-button {
   background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
 }
-.search-icon{
+.search-icon {
   width: 20px;
   height: 20px;
 }
-.category,.star-rating {
+.category,
+.star-rating {
   font-family: 'Roboto';
   font-size: 20px;
   color: #12022f;
   font-weight: 800;
   line-height: 2px;
 }
-.category-options-list,.ratings-list{
+.category-options-list,
+.ratings-list {
   margin: 0;
   list-style-type: none;
   padding: 0;
 }
-.category-item,.rating-item{
+.category-item,
+.rating-item {
   padding: 5px 0;
 }
-.category-btn,.rating-btn {
+.category-btn,
+.rating-btn {
   background-color: transparent;
   border: none;
   outline: none;
@@ -87,7 +91,8 @@
   .category {
     font-size: 30px;
   }
-  .category-btn,.rating-btn {
+  .category-btn,
+  .rating-btn {
     font-size: 24px;
   }
 }
